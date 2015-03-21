@@ -12,7 +12,7 @@ public class Map extends tk.ju57u5v.engine.world.Map{
 	@Override
 	public void onLoad() {
 		game.getConsole().log("Oakland geladen!");
-		mapEntities.add(new TestEntity(game));
+		mapEntities.add(new TestEntity());
 		mapEntities.get(0).setPosition(500, 100);
 	}
 	
